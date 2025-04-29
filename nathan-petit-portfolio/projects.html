@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Nathan Petit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Nathan Petit</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="projects-hero">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p class="lead">A collection of my work in 3D modeling, VFX, and digital art</p>
+        </div>
+    </section>
+
+    <section class="projects-grid">
+        <div class="container">
+            <div class="project-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="hard-surface">Hard Surface</button>
+                <button class="category-btn" data-category="organic">Organic Modeling</button>
+                <button class="category-btn" data-category="vfx">VFX</button>
+                <button class="category-btn" data-category="character">Character Design</button>
+            </div>
+
+            <div class="projects-wrapper">
+                <article class="project-card" data-categories="hard-surface">
+                    <a href="projects/haussmannian-house.html" class="project-link">
+                        <div class="project-image">
+                            <img src="images/Haussmannian.png" alt="Haussmannian House">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Haussmannian House</h3>
+                                    <p>Hard Surface / Architecture</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card" data-categories="hard-surface">
+                    <a href="projects/coffee-shop.html" class="project-link">
+                        <div class="project-image">
+                            <img src="images/Coffee.png" alt="Coffee Shop">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Coffee Shop</h3>
+                                    <p>Hard Surface / Interior</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card" data-categories="vfx">
+                    <a href="projects/airship.html" class="project-link">
+                        <div class="project-image">
+                            <img src="images/Airship.png" alt="Airship 3D Animation">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Airship 3D Animation</h3>
+                                    <p>VFX / Compositing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card" data-categories="organic">
+                    <a href="projects/western-desert.html" class="project-link">
+                        <div class="project-image">
+                            <img src="images/western.png" alt="Western-Style Desert">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Western-Style Desert</h3>
+                                    <p>Organic Modeling / Environment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card" data-categories="organic">
+                    <a href="projects/donuts.html" class="project-link">
+                        <div class="project-image">
+                            <img src="images/Donuts.png" alt="Donuts Scene">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Donuts Scene</h3>
+                                    <p>Food Visualization / Still Life</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card" data-categories="character">
+                    <a href="projects/walking-dead.html" class="project-link">
+                        <div class="project-image">
+                            <img src="images/walkingdead.png" alt="Walking Dead Scene">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Walking Dead Scene</h3>
+                                    <p>Character Design / Environment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.instagram.com/nathanpetitcreates/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/nathan-petit-a04555361/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/@nathwatch8762" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2025 Nathan Petit. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/transitions.js"></script>
+</body>
+</html>
